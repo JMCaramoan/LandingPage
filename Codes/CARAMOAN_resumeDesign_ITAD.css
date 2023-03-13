@@ -1,0 +1,60 @@
+h1{
+		font-family: Georgia, Times New Roman, serif;
+		color: #384bb4;
+		text-decoration: overline;
+		text-shadow: 2px 1px green;
+	}
+h2{
+  text-align:left;
+  text-decoration: underline;
+  }
+body{
+  background-color:azure;
+  color:#5c6dc9;
+  font-family:Verdana, Sans-serif;
+}
+ul.Class{
+        background: #3399ff;
+        padding: 5px;
+		list-style-position: inside;
+      }
+ul.Class li{
+        background: #cce5ff;
+        margin left: 2px;
+		list-style-position: inside;
+}
+		
+ol.Class{
+        background: #cce5ff;
+        margin left: 1px;
+		list-style-position: inside;
+}
+		
+ol.Class li{
+        background: #cce5ff;
+        margin left: 1px;
+		list-style-position: inside;
+}
+
+a:link{
+	color: green;
+	text-decoration: underline;
+	display: inline-block;
+}
+
+a:visited{
+	color: #4c00b0;
+	text-decoration: underline;
+	display: inline-block;
+}
+
+a:active{
+	color: blue;
+	text-decoration: none;
+	
+}
+
+a:hover{
+	color: orange;	
+	text-decoration: none;
+}

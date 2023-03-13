@@ -1,0 +1,32 @@
+h1{
+		font-family: Georgia, Times New Roman, serif;
+		color: #384bb4;
+		text-decoration: overline;
+		text-shadow: 2px 1px green;
+	}
+h2{
+  text-align:center;
+  text-decoration: underline;
+  }
+  
+img{
+	width: 150px;
+	height: 150px;
+	padding: 15px;
+	opacity: 1;
+	border-radius:50px;
+	transition: 0.3s;
+}
+img:hover{
+	width: 153px;
+	height: 153px;
+	opacity: 0.90;
+	border-radius: 60px;
+}
+body{
+  background-color:azure;
+  color:#5c6dc9;
+  font-family:Verdana, Sans-serif;
+}
+
+

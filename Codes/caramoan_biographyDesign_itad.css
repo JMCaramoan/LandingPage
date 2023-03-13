@@ -1,0 +1,28 @@
+img.a{
+	width: 200px;
+	height: 150px;
+	padding: 15px;
+	opacity: 1;
+	border-radius:20px;
+	transition: 0.3s;
+}
+
+img.b{
+	width: 150px;
+	height: 100px;
+	padding: 15px;
+	border-radius:20px;
+	float: left;
+}
+
+img.c{
+	width: 150px;
+	height: 100px;
+	padding: 15px;
+	border-radius:20px;
+	float: right;
+}
+
+img:hover{
+	opacity:0.80;
+}
