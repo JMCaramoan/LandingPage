@@ -9,7 +9,7 @@ h2{
   text-decoration: underline;
   }
 body{
-  background-color:azure;
+  background-image:linear-gradient(to top right,#797EF6, #ffcceb);
   color:#5c6dc9;
   font-family:Verdana, Sans-serif;
 }
