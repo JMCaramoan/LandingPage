@@ -1,6 +1,7 @@
 html{
 	scroll-behavior: smooth;
 }
+
 img.a{
 	width: 200px;
 	height: 150px;
@@ -10,12 +11,23 @@ img.a{
 	transition: 0.3s;
 }
 
+img.a:hover{
+	width: 200px;
+	height: 150px;
+	padding: 15px;
+	opacity: 1;
+	border-radius:20px;
+	transform: rotate(-5deg);
+	box-shadow: 30px 100px 50px 15px #55CEFF inset;
+	}
+
 img.b{
 	width: 150px;
 	height: 100px;
 	padding: 15px;
 	border-radius:20px;
 	float: left;
+	transition: 0.5s;
 }
 
 img.c{
@@ -24,10 +36,12 @@ img.c{
 	padding: 15px;
 	border-radius:20px;
 	float: right;
+	transition: 0.5s;
 }
 
 img:hover{
-	opacity:0.80;
+	opacity:1;
+	transform: rotate(360deg);
 }
 
 body{
