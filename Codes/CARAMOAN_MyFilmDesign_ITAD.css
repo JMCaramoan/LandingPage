@@ -25,6 +25,13 @@ img:hover{
 	width: 105px;
 	height: 105px;
 }
+video{
+	border: 5px double red;
+	transition: 0.3s;
+}
+video:hover{
+	box-shadow: 30px 20px 50px white;
+}
 body{
   background-image:linear-gradient(to top right, #797EF6, #ffcceb);
   color:#5c6dc9;
