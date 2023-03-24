@@ -25,6 +25,39 @@ img:hover{
 	width: 105px;
 	height: 105px;
 }
+
+audio
+{
+-webkit-transition:all 0.3s linear;
+-moz-transition:all 0.3s linear;
+-o-transition:all 0.3s linear;
+transition:all 0.3s linear;
+-moz-box-shadow: 2px 2px 4px 0px blue;
+-webkit-box-shadow:  2px 2px 4px 0px blue;
+box-shadow: 2px 2px 4px 0px #006773;
+-moz-border-radius:7px 7px 7px 7px ;
+-webkit-border-radius:7px 7px 7px 7px ;
+border-radius:7px 7px 7px 7px ;
+}
+
+#opm:hover{
+	transform: rotate(-5deg);
+	border: 2px dashed #797EF6;
+	box-shadow: 70px 50px 50px 5px #F9E075 inset;
+}
+#rock:hover{
+	transform: rotate(-365deg);
+	border: 2px dashed purple;
+	box-shadow: 70px 50px 50px 5px black inset;
+}
+#jpn:hover{
+	width: 130px;
+	height: 130px;
+	padding:7px;
+	transform: rotate(-5deg);
+	border: 2px dashed black;
+	box-shadow: 70px 50px 50px 5px #ff59c7 inset;
+}
 body{
   background-image:linear-gradient(to top right, #797EF6, #ffcceb);
   color:#5c6dc9;
@@ -53,3 +86,14 @@ a:hover{
 	color: orange;	
 	text-decoration: none;
 }
+
+audio:hover, audio:focus, audio:active
+{
+-webkit-box-shadow: 15px 15px 20px rgba(0,0, 0, 0.4);
+-moz-box-shadow: 15px 15px 20px rgba(0,0, 0, 0.4);
+box-shadow: 15px 15px 20px rgba(0,0, 0, 0.4);
+-webkit-transform: scale(1.05);
+-moz-transform: scale(1.05);
+transform: scale(1.05);
+}
+
