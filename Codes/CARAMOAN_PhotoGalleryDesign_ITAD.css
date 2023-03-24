@@ -21,10 +21,13 @@ img{
 	transition: 0.3s;
 }
 img:hover{
-	width: 153px;
-	height: 153px;
-	opacity: 0.90;
-	border-radius: 60px;
+	padding:5px;
+	-webkit-box-shadow: 15px 15px 20px rgba(0,0, 0, 0.4);
+	-moz-box-shadow: 15px 15px 20px rgba(0,0, 0, 0.4);
+	box-shadow: 15px 15px 20px rgba(0,0, 0, 0.4);
+	-webkit-transform: scale(1.05);
+	-moz-transform: scale(1.05);
+	transform: scale(1.05);
 }
 body{
   background-image:linear-gradient(to top right,#797EF6, #ffcceb);
