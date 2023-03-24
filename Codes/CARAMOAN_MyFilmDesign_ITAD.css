@@ -26,12 +26,27 @@ img:hover{
 	height: 105px;
 }
 video{
-	border: 5px double red;
-	transition: 0.3s;
+-webkit-transition:all 0.3s linear;
+-moz-transition:all 0.3s linear;
+-o-transition:all 0.3s linear;
+transition:all 0.3s linear;
+-moz-box-shadow: 2px 2px 4px 0px blue;
+-webkit-box-shadow:  2px 2px 4px 0px blue;
+box-shadow: 2px 2px 4px 0px #006773;
+border: 2px solid green;
+-moz-border-radius:7px 7px 7px 7px ;
+-webkit-border-radius:7px 7px 7px 7px ;
+border-radius:7px 7px 7px 7px ;
 }
-video:hover{
-	box-shadow: 30px 20px 50px white;
+video:hover, video:focus, video:active{
+-webkit-box-shadow: 15px 15px 20px rgba(0,0, 0, 0.4);
+-moz-box-shadow: 15px 15px 20px rgba(0,0, 0, 0.4);
+box-shadow: 15px 15px 20px rgba(0,0, 0, 0.4);
+-webkit-transform: scale(1.05);
+-moz-transform: scale(1.05);
+transform: scale(1.05);
 }
+
 body{
   background-image:linear-gradient(to top right, #797EF6, #ffcceb);
   color:#5c6dc9;
