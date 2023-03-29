@@ -19,6 +19,14 @@ h3{
 	color: #384bb4;
 }
 
+b.topPlace{
+	padding: 5px;
+	margin: 3px;
+	vertical-align: middle;
+	border: 1px dashed black;
+	background-color: #797EF6;
+}
+
 strong, b{
 	text-shadow: 2px 1px black;
 }
@@ -27,39 +35,15 @@ strong, b{
 	  text-shadow: 0px 1px orange;
   }
   
-  .con{
-	  display: flex;
-	  flex-wrap: wrap;
-  }
-  .con figure{
-	  margin: 0;
-	  text-align:center;
-  }
   
-  .con figcaption{
-	  color:black;
-	  display: block;
-	  padding:6px;
-	  border: 1px dashed black;
-	  background-color: #ffcceb;
-  }
-  
-  .con2{
-	  display: table;
-  }
-  .con2 figure{
-	  margin: 0;
-	  text-align:center;
-  }
-  
-  .con2 figcaption{
-	  color:black;
-	  display: block;
-	  padding:6px;
-	  margin: 1em;
-	  border: 1px dashed black;
-	  background-color: #797EF6;
-  }
+
+	.ToDo{
+		color: white;
+		text-shadow: 0px 1px orange;
+		border: 1px dashed black;
+		padding: 1.3em;
+		clear: left;
+	}
   
   .listContainer{
 	  text-align: center;
@@ -71,8 +55,29 @@ strong, b{
 	  color: #384bb4;
 	  padding: 3px;
 }
-  
-  
+
+.clearFixContainer{
+	overflow: auto;
+	border: 2px solid green;
+}
+
+img.flags, img.flags:hover{
+	float: left;
+	width: 250px;
+	height: 210px;
+	margin: 1em;
+}
+
+.icon, .icon:hover{
+	width: 30px;
+	height: 30px;
+	vertical-align: middle;
+	margin: 10px;
+}
+
+.con{
+	vertical-align: middle;
+}
   
 img.smallPictures, img.smallPictures:hover{
 	margin: 20px;
